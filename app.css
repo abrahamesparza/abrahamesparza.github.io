@@ -34,3 +34,39 @@ h3 {
   text-align:center;
   margin-top: 100px;
 }
+footer {
+  display: flex;
+  flex-direction: row;
+}
+.linkedin-icon {
+  position: absolute;
+  margin-left: 100px;
+  color: black;
+  text-decoration: none;
+}
+
+.linkedin-icon:hover {
+  color: cornflowerblue;
+}
+
+.github-icon {
+  position: absolute;
+  margin-left: 500px;
+  color: black;
+  text-decoration: none;
+}
+.github-icon:hover {
+  color: cornflowerblue;
+}
+
+.gmail-icon {
+  position: absolute;
+  width: 75px;
+  height: 70px;
+  margin-left: 900px;
+  color: black;
+  text-decoration: none;
+}
+.gmail-icon:hover {
+  color: cornflowerblue;
+}
