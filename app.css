@@ -1,3 +1,7 @@
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
 img {
   border-radius:50%
 }
@@ -10,63 +14,69 @@ img {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
+
 .about {
   text-align: center;
 /*   margin-left: 250px; */
   margin-top: 100px;
 }
-p {
+#about {
   font-family: "Times New Roman", Times, serif;
 /*   text-align: center */
   text-align: center;
 }
-a {
+a.bhf {
   text-decoration: none;
   color: black;
-}
-a:hover {
-  color:orange;
 }
 h3 {
   text-align:center;  
 }
+
 .projects {
   text-align:center;
   margin-top: 100px;
 }
-footer {
+#projects {
+  text-align:center;
+  padding-bottom: 2.5rem;
+}
+
+/* footer */
+#footer-id {
+  position: absolute;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 .linkedin-icon {
-  position: absolute;
-  margin-left: 100px;
   color: black;
   text-decoration: none;
 }
+.github-icon {
+  color: black;
+  text-decoration: none;
+}
+.gmail-icon {
+  color: black;
+  text-decoration: none;
+}
+/* footer end */
 
+/* hovers */
+a.bhf:hover {
+  color:orange;
+}
 .linkedin-icon:hover {
   color: cornflowerblue;
-}
-
-.github-icon {
-  position: absolute;
-  margin-left: 500px;
-  color: black;
-  text-decoration: none;
 }
 .github-icon:hover {
   color: cornflowerblue;
 }
-
-.gmail-icon {
-  position: absolute;
-  width: 75px;
-  height: 70px;
-  margin-left: 900px;
-  color: black;
-  text-decoration: none;
-}
 .gmail-icon:hover {
   color: cornflowerblue;
 }
+/* hovers end */
