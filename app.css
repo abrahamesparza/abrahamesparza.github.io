@@ -7,13 +7,13 @@ html {
   min-height: 100vh;
 }
 img.book {
-  height: 300px;
-  width: 600px;
+  height: 45vh;
+  width: 40vw;
   border: 3px solid rgb(110, 110, 226);
 }
 img.brew {
-  height: 300px;
-  width: 600px;
+  height: 45vh;
+  width: 40vw;
   border: 3px solid rgb(110, 110, 226);
 }
 .bookApp, .breweryApp {
