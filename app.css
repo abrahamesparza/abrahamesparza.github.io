@@ -7,14 +7,17 @@ html {
   min-height: 100vh;
 }
 img.book {
-  height: 45vh;
-  width: 40vw;
+  height: 300px;
+  width: 550px;
   border: 3px solid rgb(110, 110, 226);
+  border-radius: 15px;
 }
 img.brew {
-  height: 45vh;
-  width: 40vw;
+  height: 300px;
+  width: 550px;
   border: 3px solid rgb(110, 110, 226);
+  border-radius: 15px;
+
 }
 .bookApp, .breweryApp {
   display: flex;
@@ -54,7 +57,11 @@ h3 {
 }
 p {
   color: rgba(255, 255, 255, 0.795);
-  font-size: 18px;
+  font-size: 20px;
+}
+p.seeking {
+  font-weight: bold;
+  color: rgba(255, 171, 92, 0.795);
 }
 #about {
   font-family: "Times New Roman", Times, serif;
@@ -123,7 +130,7 @@ h3 {
 
 /* hovers */
 a.bhf:hover {
-  color:orange;
+  color:rgba(255, 171, 92, 0.795);;
 }
 .linkedin-icon:hover {
   color: rgb(110, 110, 226);
