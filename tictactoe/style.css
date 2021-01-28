@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+  font-family: monospace;
+  color: #90ee90;
+}
+body {
+  background-color: black;
+}
+#winner {
+  margin: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  color: lightgreen;
+}
+table {
+  table-layout: fixed;
+  width: 30%;
+  border-collapse: collapse;
+  margin: 5px auto;
+}
+td {
+  width: 100px;
+  height: 100px;
+  border: 2px solid lime;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: lightgreen
+}
+td:hover {
+  background-image: url('./images/smiley.txt');
+}
+/* remove borders for each child of table data to create actual tic tac toe style table */
+td:first-of-type {
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+td:nth-of-type(2) {
+  border-top-color: transparent;
+}
+td:nth-of-type(3) {
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+tr:nth-of-type(3) td {
+  border-bottom-color: transparent;
+}
+button {
+  display: block;
+  margin: 50px auto;
+  font-weight: bold;
+}
