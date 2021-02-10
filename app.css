@@ -9,7 +9,7 @@ html {
 img.book {
   height: auto;
   width: 100%;
-  max-width: 550px;
+  max-width: 525px;
   border-radius: 3%;
   border: 2px solid black;
 
@@ -19,7 +19,7 @@ img.book {
 img.brew {
   height: auto;
   width: 100%;
-  max-width: 550px;
+  max-width: 525px;
   border-radius: 3%;
   border: 2px solid black;
   /* border: 3px solid rgb(110, 110, 226);
@@ -28,7 +28,7 @@ img.brew {
 img.tictactoe {
   height: auto;
   width: 100%;
-  max-width: 550px;
+  max-width: 525px;
   border-radius: 3%;
   border: 2px solid black;
 
@@ -111,6 +111,20 @@ p.seeking {
   font-size: 32px;
   color: rgba(70, 70, 70, 0.795);
   font-family: "Bebas Neue", cursive;
+}
+a.swe {
+  text-decoration: none;
+  color: rgba(70, 70, 70, 0.795);
+}
+a.swe:hover {
+  color: rgba(255, 255, 255, 0.795);
+}
+a.desc {
+  text-decoration: none;
+  color: rgba(70, 70, 70, 0.795);
+}
+a.desc:hover {
+  color: rgba(255, 255, 255, 0.795);
 }
 #about {
   font-family: "Bebas Neue", cursive;
@@ -203,17 +217,19 @@ a.bhf:hover {
   color: rgb(110, 110, 226);
 }
 /* hovers end */
-
+/*
 @media (max-width: 700px) {
-  .img-book,
-  .img-brew {
-    width: 250px;
+  img.book,
+  img.brew,
+  img.tictactoe {
+    width: 700px;
   }
 }
 
 @media (max-width: 500px) {
-  .img-book,
-  .img-brew {
-    width: 150px;
+  img.book,
+  img.brew,
+  img.tictactoe {
+    width: 400px;
   }
-}
+} */
