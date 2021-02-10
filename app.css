@@ -1,29 +1,41 @@
 html {
-  /* background-color: #cccaca; */
-  background-color: #000000c0;
+  background-color: rgb(255, 186, 95);
+  /* background-color: #000000c0; */
 }
 #page-container {
   position: relative;
   min-height: 100vh;
 }
 img.book {
-  height: 300px;
-  width: 550px;
-  border: 3px solid rgb(110, 110, 226);
-  border-radius: 15px;
+  height: auto;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 3%;
+  border: 2px solid black;
+
+  /* border: 3px solid rgb(110, 110, 226);
+  border-radius: 15px; */
 }
 img.brew {
-  height: 300px;
-  width: 550px;
-  border: 3px solid rgb(110, 110, 226);
-  border-radius: 15px;
+  height: auto;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 3%;
+  border: 2px solid black;
+  /* border: 3px solid rgb(110, 110, 226);
+  border-radius: 15px; */
 }
 img.tictactoe {
-  height: 300px;
-  width: 550px;
-  border: 3px solid rgb(110, 110, 226);
-  border-radius: 15px;
+  height: auto;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 3%;
+  border: 2px solid black;
+
+  /* border: 3px solid rgb(110, 110, 226);
+  border-radius: 15px; */
 }
+
 .bookApp,
 .breweryApp {
   display: flex;
@@ -31,6 +43,7 @@ img.tictactoe {
   flex-wrap: wrap;
   margin-left: 3%;
   margin-top: 1%;
+  font-family: "Bebas Neue", cursive;
 }
 .tictactoe {
   display: flex;
@@ -38,31 +51,43 @@ img.tictactoe {
   flex-wrap: wrap;
   margin-left: 2%;
   margin-top: 1%;
+  font-family: "Bebas Neue", cursive;
 }
 p {
   text-align: center;
+  font-family: "Bebas Neue", cursive;
 }
 h3 {
   color: rgba(255, 255, 255, 0.795);
   font-weight: bolder;
+  font-family: "Bebas Neue", cursive;
 }
 .description {
   color: rgba(255, 255, 255, 0.795);
   text-align: left;
   width: 500px;
   margin-left: 3%;
+  font-family: "Bebas Neue", cursive;
 }
+/* img {
+  height: 190px;
+  width: 175px;
+} */
 .profile-photo {
   display: block;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;
+  border-radius: 5%;
+  width: 175px;
+  border: 5px solid black;
+  border-radius: 1%;
 }
 .header-title {
   color: rgba(255, 255, 255, 0.795);
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .about {
@@ -70,17 +95,26 @@ h3 {
   text-align: center;
   /*   margin-left: 250px; */
   margin-top: 100px;
+  font-family: "Bebas Neue", cursive;
 }
 p {
   color: rgba(255, 255, 255, 0.795);
-  font-size: 20px;
+  font-size: 23px;
+  font-family: "Bebas Neue", cursive;
+}
+p.intro {
+  font-size: 32px;
+  margin-bottom: 0%;
 }
 p.seeking {
   font-weight: bold;
-  color: rgba(255, 171, 92, 0.795);
+  font-size: 32px;
+  color: rgba(70, 70, 70, 0.795);
+  font-family: "Bebas Neue", cursive;
 }
 #about {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Bebas Neue", cursive;
+
   /*   text-align: center */
   text-align: center;
 }
@@ -91,12 +125,19 @@ a.bhf {
 h3 {
   color: rgba(255, 255, 255, 0.795);
   text-align: center;
+  font-size: 32px;
+  font-family: "Bebas Neue", cursive;
+}
+
+h1.projects {
+  font-size: 42px;
 }
 
 .projects {
   color: rgba(255, 255, 255, 0.795);
   text-align: center;
   margin-top: 50px;
+  font-family: "Bebas Neue", cursive;
 }
 #projects {
   background-color: rgba(0, 0, 255, 0.048);
@@ -115,7 +156,7 @@ h3 {
   margin-left: 5%;
   margin-right: 5%; */
   /* position: absolute; */
-  border-bottom: 1px solid rgba(245, 245, 245, 0.39);
+  /* border-bottom: 1px solid rgba(245, 245, 245, 0.39); */
   color: rgba(255, 255, 255, 0.795);
   opacity: 90%;
   margin-left: 25%;
@@ -129,18 +170,22 @@ h3 {
   /* width: 100%; */
   height: 2.5rem;
   font-size: 18px;
+  margin-bottom: 2%;
 }
 .linkedin-icon {
   color: rgba(255, 255, 255, 0.795);
   text-decoration: none;
+  font-family: "Bebas Neue", cursive;
 }
 .github-icon {
   color: rgba(255, 255, 255, 0.795);
   text-decoration: none;
+  font-family: "Bebas Neue", cursive;
 }
 .gmail-icon {
   color: rgba(255, 255, 255, 0.795);
   text-decoration: none;
+  font-family: "Bebas Neue", cursive;
 }
 /* footer end */
 
