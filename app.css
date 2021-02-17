@@ -5,6 +5,7 @@ html {
     rgb(202, 201, 201),
     rgb(104, 101, 101)
   );
+  cursor: crosshair;
 }
 #page-container {
   position: relative;
@@ -203,13 +204,13 @@ a.bhf:hover {
   color: rgba(255, 171, 92, 0.795);
 }
 .linkedin-icon:hover {
-  color: rgb(110, 110, 226);
+  color: rgb(212, 212, 212);
 }
 .github-icon:hover {
-  color: rgb(110, 110, 226);
+  color: rgb(212, 212, 212);
 }
 .gmail-icon:hover {
-  color: rgb(110, 110, 226);
+  color: rgb(212, 212, 212);
 }
 /* hovers end */
 
@@ -246,4 +247,11 @@ a.bhf:hover {
     margin-right: 15%;
     margin-left: 15%;
   }
+}
+.atr {
+  text-decoration: none;
+  color: rgba(70, 70, 70, 0.795);
+}
+h3:hover {
+  color: rgb(212, 212, 212);
 }
